@@ -77,15 +77,3 @@ closeBtn.addEventListener('click', function(){
   menu.classList.remove('active');
   mobileMenu.classList.toggle('active');
 })
-//flip on click in  obile view
-// const flipBtn=document.querySelectorAll('.flip-btn');
-// const closeFlipBtn=document.querySelectorAll('.close-flip-btn');
-// const flipInner=document.querySelectorAll('.flip-inner')
-// for(let i=0;i<flipBtn.length;i++){
-//   flipBtn[i].addEventListener('click',function(){
-//   flipInner[i].classList.toggle('flip');
-//   })
-//   closeFlipBtn.addEventListener('click',function(){
-//     flipInner[i].classList.toggle('flip');
-//   })
-// }
